@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ch2" />
+        <module name="spring-ch4" />
         <module name="spring-ch3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-ch2" target="11" />
       <module name="spring-ch3" target="11" />
+      <module name="spring-ch4" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
