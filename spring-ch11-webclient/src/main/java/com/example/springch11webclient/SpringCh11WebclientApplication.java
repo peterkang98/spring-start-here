@@ -1,0 +1,13 @@
+package com.example.springch11webclient;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringCh11WebclientApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringCh11WebclientApplication.class, args);
+	}
+
+}
